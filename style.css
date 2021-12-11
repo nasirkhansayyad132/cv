@@ -1,0 +1,234 @@
+.columns{
+    float: left;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: white;
+}
+body{
+    background-color: #f1f1f1!important;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.left-column{
+    margin-right: 5px;
+    width: 34%;
+}
+.name{
+    position: relative;
+    left: 20px;
+    top:-60px;
+    z-index: 1;
+    color:white;
+    text-shadow: 2px 2px black; 
+    
+    height: 0px
+}
+.right-column{
+    margin-left: 10px;
+    width: 62%;
+    padding-left: 20px;
+    
+}
+.exp,.edu{
+    color: #757575;
+    font-weight: normal;
+}.suit{
+    color: #009688;
+    padding-right: 20px;
+    position: relative;
+    
+}
+.largest{
+    font-size:32px!important
+}
+.mid-large{
+    font-size: 20px !important;
+}
+.i-color{
+    color: #009688;
+    padding-right: 10px;
+}
+.details ,.my-skills,.languages{
+   
+    margin-left: 15px;
+    color:#757575;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.xlarge{
+    font-size: 25px !important;
+}
+*{
+    box-sizing: border-box;
+}
+.inner-container,.language{
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.skills{
+    color: white;
+    text-align:center;
+    
+}
+.programming{
+    width: 90%;
+    background-color: #009688;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pashto{
+    width: 100%;
+    background-color: #009688;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.illustrator,.english{
+    
+    width: 75%;
+    background-color: #009688;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.photographer,.dari{
+    display: inline-table;
+    width: 60%;
+    background-color: #009688;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.Youtuber{
+    width: 40%;
+    background-color: #009688;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.language{
+    background-color: #757575;
+    width: 100%;
+
+}
+.works{
+    
+    margin-left: 15px;
+    color: #757575;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.work11{
+color: #009688;  
+}
+.slarge{
+    font-size: 16px !important;
+}
+.current{
+    background-color: #009688;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.work11{
+    font-weight: normal;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+    
+    color: black !important;
+    padding-right: 20px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.bottom-right{
+    margin:15px 0 0 10px;
+    width: 62%;;
+}
+.edu{
+    font-weight: normal;
+    color: #757575;
+    margin-left: 20px;
+    
+}
+.educate-i{
+    margin-right: 10px;
+}
+.w3{
+    margin-left: 35px;
+}
+footer{
+    margin-top: 16px;
+    height: 100%;
+    width: 100%;
+    background-color: #009688 !important;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    
+    color: white;
+}
+.opacity:hover{
+    opacity:0.60;
+}
+@media(max-width:480px)
+{
+ .columns{
+     float: none;
+     margin: .8% !important;
+ }
+   .left-column{
+       width: 100%;
+       margin: 10px;
+   }
+   
+   .right-column{
+       width: 100%;
+   }
+   .bottom-right{
+       width: 100%;
+   }
+   footer{
+       margin-left: 10px;
+       margin: 10px;
+       width: 100%;
+       
+   }
+   .details{
+       margin-top: -30px;
+   }
+   .exp{
+       padding-top: 10px;
+   }
+   .edu{
+       padding-top: 10px;
+   }
+   .p7{
+       padding-top: 10px;
+   }
+   a{
+       padding: 10px;
+   }
+} 
